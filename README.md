@@ -32,7 +32,7 @@ From the toplevel directory
  A.1 Unitex/GramLab <br />
  • Install Unitex/GramLab according to your OS. http://unitexgramlab.org/ <br />
  • Install python bindings for Unitex/Gramlab. https://github.com/patwat/python-unitex <br />
- • Compile grammars for languages you want to use. For example: `./Unitex-GramLab-3.1/App/UnitexToolLogger ./Unitex-GramLab-3.1/French/Graphs/Preprocessing/Sentence Grf2Fst2 grf` <br />
+ • Compile grammars for languages you want to use. For example: `./Unitex-GramLab-3.1/App/UnitexToolLogger Grf2Fst2 ./Unitex-GramLab-3.1/French/Graphs/Preprocessing/Sentence/*.grf` <br />
  • For additional modiﬁcations consult Unitex’s manual: http://www.cis.uni-muenchen.de/people/lg3/ManuelUnitex.pdf <br />
  
  A.2 hunalign <br />
